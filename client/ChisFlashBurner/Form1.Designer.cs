@@ -99,7 +99,7 @@
             this.btn_browseRom.Name = "btn_browseRom";
             this.btn_browseRom.Size = new System.Drawing.Size(60, 23);
             this.btn_browseRom.TabIndex = 0;
-            this.btn_browseRom.Text = "浏览";
+            this.btn_browseRom.Text = "browseRom";
             this.btn_browseRom.UseVisualStyleBackColor = true;
             this.btn_browseRom.Click += new System.EventHandler(this.btn_browseRom_Click);
             // 
@@ -133,7 +133,7 @@
             this.btn_readID.Name = "btn_readID";
             this.btn_readID.Size = new System.Drawing.Size(60, 23);
             this.btn_readID.TabIndex = 3;
-            this.btn_readID.Text = "读取ID";
+            this.btn_readID.Text = "readID";
             this.btn_readID.UseVisualStyleBackColor = true;
             this.btn_readID.Click += new System.EventHandler(this.btn_readID_Click);
             // 
@@ -208,7 +208,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 12);
             this.label3.TabIndex = 12;
-            this.label3.Text = "存档";
+            this.label3.Text = "Экспорт";
             // 
             // textBox_savePath
             // 
@@ -226,7 +226,7 @@
             this.btn_browseSave.Name = "btn_browseSave";
             this.btn_browseSave.Size = new System.Drawing.Size(60, 23);
             this.btn_browseSave.TabIndex = 14;
-            this.btn_browseSave.Text = "浏览";
+            this.btn_browseSave.Text = "browseSave";
             this.btn_browseSave.UseVisualStyleBackColor = true;
             this.btn_browseSave.Click += new System.EventHandler(this.btn_browseSave_Click);
             // 
@@ -237,7 +237,7 @@
             this.btn_eraseChip.Name = "btn_eraseChip";
             this.btn_eraseChip.Size = new System.Drawing.Size(75, 52);
             this.btn_eraseChip.TabIndex = 15;
-            this.btn_eraseChip.Text = "全片擦除";
+            this.btn_eraseChip.Text = "eraseChip";
             this.btn_eraseChip.UseVisualStyleBackColor = true;
             this.btn_eraseChip.Click += new System.EventHandler(this.btn_eraseChip_Click);
             // 
@@ -248,7 +248,7 @@
             this.btn_writeRom.Name = "btn_writeRom";
             this.btn_writeRom.Size = new System.Drawing.Size(75, 23);
             this.btn_writeRom.TabIndex = 16;
-            this.btn_writeRom.Text = "写入ROM";
+            this.btn_writeRom.Text = "writeRom";
             this.btn_writeRom.UseVisualStyleBackColor = true;
             this.btn_writeRom.Click += new System.EventHandler(this.btn_writeRom_Click);
             // 
@@ -259,7 +259,7 @@
             this.btn_readRom.Name = "btn_readRom";
             this.btn_readRom.Size = new System.Drawing.Size(75, 23);
             this.btn_readRom.TabIndex = 17;
-            this.btn_readRom.Text = "导出ROM";
+            this.btn_readRom.Text = "readRom";
             this.btn_readRom.UseVisualStyleBackColor = true;
             this.btn_readRom.Click += new System.EventHandler(this.btn_readRom_Click);
             // 
@@ -270,7 +270,7 @@
             this.btn_verifyRom.Name = "btn_verifyRom";
             this.btn_verifyRom.Size = new System.Drawing.Size(75, 23);
             this.btn_verifyRom.TabIndex = 18;
-            this.btn_verifyRom.Text = "校验ROM";
+            this.btn_verifyRom.Text = "verifyRom";
             this.btn_verifyRom.UseVisualStyleBackColor = true;
             this.btn_verifyRom.Click += new System.EventHandler(this.btn_verifyRom_Click);
             // 
@@ -281,7 +281,7 @@
             this.btn_writeSave.Name = "btn_writeSave";
             this.btn_writeSave.Size = new System.Drawing.Size(75, 23);
             this.btn_writeSave.TabIndex = 19;
-            this.btn_writeSave.Text = "写入存档";
+            this.btn_writeSave.Text = "writeSave";
             this.btn_writeSave.UseVisualStyleBackColor = true;
             this.btn_writeSave.Click += new System.EventHandler(this.btn_writeSave_Click);
             // 
@@ -292,7 +292,7 @@
             this.btn_readSave.Name = "btn_readSave";
             this.btn_readSave.Size = new System.Drawing.Size(75, 23);
             this.btn_readSave.TabIndex = 20;
-            this.btn_readSave.Text = "导出存档";
+            this.btn_readSave.Text = "readSave";
             this.btn_readSave.UseVisualStyleBackColor = true;
             this.btn_readSave.Click += new System.EventHandler(this.btn_readSave_Click);
             // 
@@ -303,7 +303,7 @@
             this.btn_verifySave.Name = "btn_verifySave";
             this.btn_verifySave.Size = new System.Drawing.Size(75, 23);
             this.btn_verifySave.TabIndex = 21;
-            this.btn_verifySave.Text = "校验存档";
+            this.btn_verifySave.Text = "verifySave";
             this.btn_verifySave.UseVisualStyleBackColor = true;
             this.btn_verifySave.Click += new System.EventHandler(this.btn_verifySave_Click);
             // 
@@ -314,7 +314,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 12);
             this.label4.TabIndex = 22;
-            this.label4.Text = "ROM大小(MiB)";
+            this.label4.Text = "ROMsize(MiB)";
             // 
             // label5
             // 
@@ -323,7 +323,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 12);
             this.label5.TabIndex = 23;
-            this.label5.Text = "存档大小(KiB)";
+            this.label5.Text = "RAMsize(KiB)";
             // 
             // comboBox_saveSize
             // 
@@ -362,7 +362,7 @@
             this.btn_renewPort.Name = "btn_renewPort";
             this.btn_renewPort.Size = new System.Drawing.Size(60, 23);
             this.btn_renewPort.TabIndex = 26;
-            this.btn_renewPort.Text = "刷新";
+            this.btn_renewPort.Text = "renewPort";
             this.btn_renewPort.UseVisualStyleBackColor = true;
             this.btn_renewPort.Click += new System.EventHandler(this.btn_renewPort_Click);
             // 
@@ -376,7 +376,7 @@
             "FLASH",
             "SRAM",
             "FRAM",
-            "免电"});
+            "БезБатареи"});
             this.comboBox_ramType.Location = new System.Drawing.Point(213, 42);
             this.comboBox_ramType.Name = "comboBox_ramType";
             this.comboBox_ramType.Size = new System.Drawing.Size(94, 20);
@@ -425,10 +425,10 @@
             this.comboBox_gbaMultiCartSelect.DropDownWidth = 100;
             this.comboBox_gbaMultiCartSelect.FormattingEnabled = true;
             this.comboBox_gbaMultiCartSelect.Items.AddRange(new object[] {
-            "整卡",
-            "合卡菜单",
-            "合卡8M",
-            "合卡12M",
+            "ОдинROM",
+            "МультиROM",
+            "МультиROM8M",
+            "МультиROM12M",
             "合卡16M",
             "合卡20M",
             "合卡24M",
@@ -630,7 +630,7 @@
             this.btn_eraseChip_mbc5.Name = "btn_eraseChip_mbc5";
             this.btn_eraseChip_mbc5.Size = new System.Drawing.Size(75, 52);
             this.btn_eraseChip_mbc5.TabIndex = 28;
-            this.btn_eraseChip_mbc5.Text = "全片擦除";
+            this.btn_eraseChip_mbc5.Text = "eraseChipmbc5";
             this.btn_eraseChip_mbc5.UseVisualStyleBackColor = true;
             this.btn_eraseChip_mbc5.Click += new System.EventHandler(this.btn_eraseChip_mbc5_Click);
             // 
@@ -641,9 +641,9 @@
             this.comboBox_mbc5MultiCartSelect.DropDownWidth = 100;
             this.comboBox_mbc5MultiCartSelect.FormattingEnabled = true;
             this.comboBox_mbc5MultiCartSelect.Items.AddRange(new object[] {
-            "整卡",
-            "菜单",
-            "合卡 1/4",
+            "ОдинROM",
+            "MultiRomMenu",
+            "МультиROM 1/4",
             "合卡 2/4",
             "合卡 3/4",
             "合卡 4/4",
@@ -672,7 +672,7 @@
             this.btn_verifyRom_mbc5.Name = "btn_verifyRom_mbc5";
             this.btn_verifyRom_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_verifyRom_mbc5.TabIndex = 31;
-            this.btn_verifyRom_mbc5.Text = "校验ROM";
+            this.btn_verifyRom_mbc5.Text = "verifyRommbc5";
             this.btn_verifyRom_mbc5.UseVisualStyleBackColor = true;
             this.btn_verifyRom_mbc5.Click += new System.EventHandler(this.btn_verifyRom_mbc5_Click);
             // 
@@ -683,7 +683,7 @@
             this.btn_verifySave_mbc5.Name = "btn_verifySave_mbc5";
             this.btn_verifySave_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_verifySave_mbc5.TabIndex = 34;
-            this.btn_verifySave_mbc5.Text = "校验存档";
+            this.btn_verifySave_mbc5.Text = "verifySavembc5";
             this.btn_verifySave_mbc5.UseVisualStyleBackColor = true;
             this.btn_verifySave_mbc5.Click += new System.EventHandler(this.btn_verifySave_mbc5_Click);
             // 
@@ -726,7 +726,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 12);
             this.label1.TabIndex = 36;
-            this.label1.Text = "存档大小(KiB)";
+            this.label1.Text = "sizeSAVE(KiB)";
             // 
             // btn_readRom_mbc5
             // 
@@ -735,7 +735,7 @@
             this.btn_readRom_mbc5.Name = "btn_readRom_mbc5";
             this.btn_readRom_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_readRom_mbc5.TabIndex = 30;
-            this.btn_readRom_mbc5.Text = "导出ROM";
+            this.btn_readRom_mbc5.Text = "readRommbc5";
             this.btn_readRom_mbc5.UseVisualStyleBackColor = true;
             this.btn_readRom_mbc5.Click += new System.EventHandler(this.btn_readRom_mbc5_Click);
             // 
@@ -746,7 +746,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 12);
             this.label6.TabIndex = 35;
-            this.label6.Text = "ROM大小(MiB)";
+            this.label6.Text = "ROMsize(MiB)";
             // 
             // btn_readSave_mbc5
             // 
@@ -755,7 +755,7 @@
             this.btn_readSave_mbc5.Name = "btn_readSave_mbc5";
             this.btn_readSave_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_readSave_mbc5.TabIndex = 33;
-            this.btn_readSave_mbc5.Text = "导出存档";
+            this.btn_readSave_mbc5.Text = "readSavembc5";
             this.btn_readSave_mbc5.UseVisualStyleBackColor = true;
             this.btn_readSave_mbc5.Click += new System.EventHandler(this.btn_readSave_mbc5_Click);
             // 
@@ -766,7 +766,7 @@
             this.btn_writeRom_mbc5.Name = "btn_writeRom_mbc5";
             this.btn_writeRom_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_writeRom_mbc5.TabIndex = 29;
-            this.btn_writeRom_mbc5.Text = "写入ROM";
+            this.btn_writeRom_mbc5.Text = "writeRommbc5";
             this.btn_writeRom_mbc5.UseVisualStyleBackColor = true;
             this.btn_writeRom_mbc5.Click += new System.EventHandler(this.btn_writeRom_mbc5_Click);
             // 
@@ -777,7 +777,7 @@
             this.btn_writeSave_mbc5.Name = "btn_writeSave_mbc5";
             this.btn_writeSave_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_writeSave_mbc5.TabIndex = 32;
-            this.btn_writeSave_mbc5.Text = "写入存档";
+            this.btn_writeSave_mbc5.Text = "writeSavembc5";
             this.btn_writeSave_mbc5.UseVisualStyleBackColor = true;
             this.btn_writeSave_mbc5.Click += new System.EventHandler(this.btn_writeSave_mbc5_Click);
             // 
@@ -796,7 +796,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(637, 72);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "工具";
+            this.tabPage3.Text = "Tools";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // btn_cancel
@@ -807,7 +807,7 @@
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(75, 52);
             this.btn_cancel.TabIndex = 16;
-            this.btn_cancel.Text = "取消";
+            this.btn_cancel.Text = "cancel";
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
@@ -817,7 +817,7 @@
             this.btn_rumbleTest_gba.Name = "btn_rumbleTest_gba";
             this.btn_rumbleTest_gba.Size = new System.Drawing.Size(75, 23);
             this.btn_rumbleTest_gba.TabIndex = 8;
-            this.btn_rumbleTest_gba.Text = "震动测试";
+            this.btn_rumbleTest_gba.Text = "rumbleTestgba";
             this.btn_rumbleTest_gba.UseVisualStyleBackColor = true;
             this.btn_rumbleTest_gba.Click += new System.EventHandler(this.btn_rumbleTest_gba_Click);
             // 
@@ -827,7 +827,7 @@
             this.btn_setRTC_mbc.Name = "btn_setRTC_mbc";
             this.btn_setRTC_mbc.Size = new System.Drawing.Size(75, 23);
             this.btn_setRTC_mbc.TabIndex = 7;
-            this.btn_setRTC_mbc.Text = "修改时钟";
+            this.btn_setRTC_mbc.Text = "setRTCmbc";
             this.btn_setRTC_mbc.UseVisualStyleBackColor = true;
             this.btn_setRTC_mbc.Click += new System.EventHandler(this.btn_setRTC_mbc_Click);
             // 
@@ -837,7 +837,7 @@
             this.btn_setRTC_gba.Name = "btn_setRTC_gba";
             this.btn_setRTC_gba.Size = new System.Drawing.Size(75, 23);
             this.btn_setRTC_gba.TabIndex = 6;
-            this.btn_setRTC_gba.Text = "修改时钟";
+            this.btn_setRTC_gba.Text = "setRTCgba";
             this.btn_setRTC_gba.UseVisualStyleBackColor = true;
             this.btn_setRTC_gba.Click += new System.EventHandler(this.btn_setRTC_gba_Click);
             // 
@@ -847,7 +847,7 @@
             this.btn_unlockPPB_mbc5.Name = "btn_unlockPPB_mbc5";
             this.btn_unlockPPB_mbc5.Size = new System.Drawing.Size(75, 23);
             this.btn_unlockPPB_mbc5.TabIndex = 5;
-            this.btn_unlockPPB_mbc5.Text = "解锁ppb";
+            this.btn_unlockPPB_mbc5.Text = "unlockPPBmbc5";
             this.btn_unlockPPB_mbc5.UseVisualStyleBackColor = true;
             this.btn_unlockPPB_mbc5.Click += new System.EventHandler(this.btn_unlockPPB_mbc5_Click);
             // 
@@ -875,7 +875,7 @@
             this.btn_unlockPPB_gba.Name = "btn_unlockPPB_gba";
             this.btn_unlockPPB_gba.Size = new System.Drawing.Size(75, 23);
             this.btn_unlockPPB_gba.TabIndex = 2;
-            this.btn_unlockPPB_gba.Text = "解锁ppb";
+            this.btn_unlockPPB_gba.Text = "unlockPPBgba";
             this.btn_unlockPPB_gba.UseVisualStyleBackColor = true;
             this.btn_unlockPPB_gba.Click += new System.EventHandler(this.btn_unlockPPB_gba_Click);
             // 
