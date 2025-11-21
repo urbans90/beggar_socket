@@ -1,0 +1,36 @@
+name: BurnChis
+
+on:
+  workflow_dispatch:        # можно запускать руками
+  push:
+    paths:
+      - 'client/**'
+      - '.github/workflows/build-client.yml'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Find and build C# client project
+        shell: pwsh
+        run: |
+          $proj = Get-ChildItem client -Filter *.csproj -Recurse | Select-Object -First 1
+          if (-not $proj) {
+            Write-Error "Не найден .csproj в папке client"
+          }
+          Write-Host "Собираю проект:" $proj.FullName
+          msbuild $proj.FullName /p:Configuration=Release
+
+      - name: Upload built client
+        uses: actions/upload-artifact@v4
+        with:
+          name: beggar_socket_client
+          path: |
+            client/bin/Release/
